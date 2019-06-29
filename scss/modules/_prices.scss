@@ -1,0 +1,110 @@
+/*---------- PRICES --- НАЧАЛО ----------*/
+.prices {
+    padding: 109px 0 100px 0;
+}
+.prices-tittle {
+    color: $color-white;
+    font-family: $RalewayMedium;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: $color-nero;
+    padding: 16px 0px;
+    text-align: center;
+    margin: 0;
+}
+.price-container-hover {
+    background: $color-whiteSmoke-F2;
+    text-align: center;
+    position: relative;
+}
+.price-price{
+    color: $color-nero;
+    font-family: $LatoBlack;
+    font-size: 50px;
+    font-weight: 400;
+    padding: 20px 0;
+    background: $color-whiteSmoke-F2;
+    margin: 0;
+}
+.year {
+    color: $color-nero;
+    font-family: $LatoRegular;
+    font-size: 16px;
+}
+.price-optional {
+    border: 1px solid #e7e7e7;
+    padding-bottom: 79px;
+    background: $color-white;
+}
+.optional-text {
+    color: $color-nero;
+    font-family: $LatoRegular;
+    font-size: 16px;
+    line-height: 52px;
+    background: $color-white;
+    margin: 0;
+    padding: 0 !important;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: none !important;
+    font-weight: 400 !important;
+}
+.price-btn {
+    color: $color-white;
+    font-family: $RalewayRegular;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: $color-nero;
+    border: none;
+    padding: 0px 52px;
+    &:hover{
+        background: $color-torchRed;
+        color: $color-white;
+        cursor: pointer;
+    }
+}
+.table {
+    border: 1px solid #e7e7e7;
+    tr {
+    &:nth-of-type(7) {
+        line-height: normal;
+        .optional-text {
+            padding: 13px 0 !important;
+        }
+    }
+   }
+}
+@media (max-width:1200px) {
+.optional-text {
+    font-size: 12px;
+}
+.price-btn {
+    font-size: 12px;
+}
+}
+@media(max-width:992px) {
+.prices-container {
+    &:nth-of-type(1),
+    &:nth-of-type(2) {
+        margin-bottom: 50px;
+    }
+}
+}
+@media(max-width:768px) {
+.prices-container {
+    margin-bottom: 25px !important;
+} 
+.prices {
+    padding-top: 50px;
+}
+}
+@media (max-width:576px) {
+.price-container-hover {
+    display: none;
+}
+.prices-container {
+    &:hover .price-container-hover {
+         display: block;
+    }
+}
+}
+/*---------- PRICES --- КОНЕЦ ----------*/

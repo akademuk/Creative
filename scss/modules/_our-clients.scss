@@ -1,0 +1,226 @@
+/*---------- OUR CLIENTS --- НАЧАЛО ----------*/
+.our-client {
+    background: url(../../img/our-client.png);
+    padding: 94px 0 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .our-cient-tittle {
+        .about-tittle-text {
+            text-align: center;
+            color: $color-darkGray;
+            margin-bottom: 100px;
+        }
+    }
+   }
+.radio-container-fred {
+    display: none;
+}
+.clents-info {
+    text-align: center;
+}
+.radio-container-jon {
+    display: none;
+}
+.radio-container-oleg {
+    display: none;
+}
+input {
+    display: none;
+}
+label {
+    width: 8px;
+    height: 8px;
+    background-color: #e0e0e0;
+	display: inline-block;
+	margin: 27px 9px 0 9px;
+	cursor: pointer;
+}
+input[id="cleints-jon"]:checked ~ .radio-container .radio-container-jon {
+    display: block;
+}
+input[id="cleint-fred"]:checked ~ .radio-container .radio-container-fred {
+    display: block;
+}
+input[id="cleints-oleg"]:checked ~ .radio-container .radio-container-oleg {
+    display: block;
+}
+input[id="cleints-jon"]:checked ~ label:nth-of-type(1) {
+    background-color: #ff0036;
+}
+input[id="cleint-fred"]:checked ~ label:nth-of-type(2) {
+    background-color: #ff0036;
+}
+input[id="cleints-oleg"]:checked ~ label:nth-of-type(3) {
+    background-color: #ff0036;
+}
+.radio-text {
+    color: $color-darkGray;
+    font-family: $LatoRegular;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+.name-client {
+    color: $color-torchRed;
+    font-family: $RalewayBold;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.clients-img-container {
+    padding: 48px 47px 44px 125px;
+    background: $color-white;
+    text-align: right;
+    box-shadow: inset 0 0 68px rgba(0, 0, 0, 0.75);
+    &:nth-of-type(1) {
+        margin-bottom: 39px;
+    }
+    &:nth-of-type(2) {
+        margin-bottom: 39px;
+    }
+    img {
+        position: absolute;
+        z-index: 2;
+    }
+    &:nth-of-type(1) img{
+        top: 49px;
+        left: 17px;
+    }
+    &:nth-of-type(2) img{
+        top: 46px;
+        left: 27px;
+    }
+    &:nth-of-type(3) img{
+        top: 46px;
+        left: 26px;
+    }
+    &:nth-of-type(4) img{
+        top: 49px;
+        left: 29px;
+    }
+}
+.clients-img-text {
+    color: $color-nero29;
+    font-family: $MgOpenModata;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 17px;
+    padding-left: 15px;
+    display: flex;
+    position: relative;
+    &::before{
+            content: "";
+            display: flex;
+            margin-right: 9px;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 26px;
+            box-shadow: inset 0 0 0 33px #363536;
+            border: 1px solid #ffffff;
+            border-radius: 3px;
+            
+    }
+}
+
+@media (max-width: 1200px) {
+.clients-img-container {
+    display: flex;
+    justify-content: center;
+}
+.clients-img-container {
+
+    &:nth-of-type(1) img{
+        top: 49px;
+        left: 3%;
+    }
+    &:nth-of-type(2) img{
+        top: 46px;
+        left: 13%;
+    }
+    &:nth-of-type(3) img{
+        top: 46px;
+        left: 11%;
+    }
+    &:nth-of-type(4) img{
+        top: 47px;
+        left: 8%;
+    }
+}
+}
+@media(max-width:992px) {
+    .clients-img-container {
+        &:nth-of-type(1) img{
+            top: 49px;
+            left: 54px;
+        }
+        &:nth-of-type(2) img{
+            top: 46px;
+            left: 73px;
+        }
+        &:nth-of-type(3) img{
+            top: 46px;
+            left: 68px;
+        }
+        &:nth-of-type(4) img{
+            top: 49px;
+            left: 64px;
+        }
+    }  
+}
+
+@media (max-width: 768px) {
+.clients-img-container {
+    &:nth-of-type(1) img{
+        top: 49px;
+        left: 165px;
+    }
+    &:nth-of-type(2) img{
+        top: 46px;
+        left: 185px;
+    }
+    &:nth-of-type(3) img{
+        top: 46px;
+        left: 180px;
+    }
+    &:nth-of-type(4) img{
+        top: 49px;
+        left: 176px;
+    }
+    &:nth-of-type(3) {
+        margin-bottom: 39px;
+    }  
+    }  
+}
+@media (max-width: 576px) {
+    .clients-img-container {
+        display: flex !important;
+        justify-content: end;
+        padding-left: 20% !important;
+        &:nth-of-type(1) img{
+            top: 49px;
+            left: 20%;
+        }
+        &:nth-of-type(2) img{
+            top: 46px;
+            left: 23%;
+        }
+        &:nth-of-type(3) img{
+            top: 46px;
+            left: 23%;
+        }
+        &:nth-of-type(4) img{
+            top: 49px;
+            left: 23%;
+        }
+        }  
+    }
+
+
+
+
+
+
+
+/*---------- OUR CLIENTS --- КОНЕЦ ----------*/

@@ -1,0 +1,96 @@
+/*---------- Импорт шрифтов --- НАЧАЛО ----------*/
+/* font-family: "Lato"; */
+@font-face {
+	font-family: "LatoBold";
+	src: url("../fonts/Lato/Lato-Bold.eot");
+	src: url("../fonts/Lato/Lato-Bold.eot")format("embedded-opentype"),
+	url("../fonts/Lato/Lato-Bold.woff") format("woff"),
+	url("../fonts/Lato/Lato-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "LatoLight";
+	src: url("../fonts/Lato/Lato-Light.eot");
+	src: url("../fonts/Lato/Lato-Light.eot")format("embedded-opentype"),
+	url("../fonts/Lato/Lato-Light.woff") format("woff"),
+	url("../fonts/Lato/Lato-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family: "LatoRegular";
+	src: url("../fonts/Lato/Lato-Regular.eot");
+	src: url("../fonts/Lato/Lato-Regular.eot")format("embedded-opentype"),
+	url("../fonts/Lato/Lato-Regular.woff") format("woff"),
+	url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+/* font-family: "Lato Black"; */
+@font-face {
+	font-family: "LatoBlack";
+	src: url("../fonts/LatoBlack/Lato-Black.eot");
+	src: url("../fonts/LatoBlack/Lato-Black.eot")format("embedded-opentype"),
+	url("../fonts/LatoBlack/Lato-Black.woff") format("woff"),
+	url("../fonts/LatoBlack/Lato-Black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 900;
+}
+/* font-family: "MgOpenModata"; */
+@font-face {
+	font-family: "MgOpenModata";
+	src: url("../fonts/MgOpenModata/MgOpenModata.eot");
+	src: url("../fonts/MgOpenModata/MgOpenModata.eot")format("embedded-opentype"),
+	url("../fonts/MgOpenModata/MgOpenModata.woff") format("woff"),
+	url("../fonts/MgOpenModata/MgOpenModata.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+/* font-family: "MyriadPro"; */
+@font-face {
+	font-family: "MyriadPro";
+	src: url("../fonts/MyriadPro/MyriadPro-Regular.eot");
+	src: url("../fonts/MyriadPro/MyriadPro-Regular.eot")format("embedded-opentype"),
+	url("../fonts/MyriadPro/MyriadPro-Regular.woff") format("woff"),
+	url("../fonts/MyriadPro/MyriadPro-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+/* font-family: "Raleway"; */
+@font-face {
+	font-family: 'RalewayBold';
+	src: url('../fonts/Raleway/ralewaybold.ttf') format('truetype'),
+		 url('../fonts/Raleway/ralewaybold.woff') format('woff');
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'RalewayMedium';
+	src: url('../fonts/Raleway/ralewaymedium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'RalewayRegular';
+	src: url('../fonts/Raleway/ralewayregular.ttf') format('truetype'),
+		 url('../fonts/Raleway/ralewayregular.woff') format('woff');
+	font-style: normal;
+	font-weight: 700;
+}
+/* font-family: "Raleway"; */
+@font-face {
+	font-family: 'RalewaySemiBold';
+	src: url('../fonts/RalewaySemiBold/ralewaysemibold.ttf') format('truetype'),
+		 url('../fonts/RalewaySemiBold/ralewaysemibold.woff') format('woff');
+	font-style: normal;
+	font-weight: 600;
+}
+/* font-family: "FontaWesome"; */
+@font-face {
+	font-family: 'FontaWesome';
+	src: url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+		 url('../fonts/fontawesome-webfont.woff') format('woff');
+}
+
+/*---------- Импорт шрифтов --- КОНЕЦ ----------*/

@@ -1,0 +1,179 @@
+/*---------- SERVICES --- НАЧАЛО ----------*/
+.services {
+    background: #272727;
+    padding: 100px 0 50px 0;
+}
+.services-container {
+    margin-bottom: 50px;
+}
+.svg-text {
+    position: relative;
+    align-items: center;
+    margin-bottom: 29px;
+    &::before {
+        content: "\f121";
+        font-family: $FontaWesome;
+        font-size: 23px;
+        display: block;
+        color:#262626;
+        position: absolute;
+        top: 20px;
+        left: 32px;
+    }
+    
+}
+.services-container {
+    &:nth-of-type(2) {
+        .svg-text {
+            &::before {
+                content: "\f13b";
+                font-family: $FontaWesome;
+                font-size: 28px;
+                display: block;
+                color:#262626;
+                position: absolute;
+                top: 18px;
+                left: 34px;
+            }
+        }
+    }
+    &:nth-of-type(3) {
+        .svg-text {
+            &::before {
+                content: "\f19a";
+                font-family: $FontaWesome;
+                font-size: 35px;
+                display: block;
+                color:#262626;
+                position: absolute;
+                top: 14px;
+                left: 27px;
+            }
+        }
+    }
+    &:nth-of-type(4) {
+        .svg-text {
+            &::before {
+                content: "\f10a";
+                font-family: $FontaWesome;
+                font-size: 28px;
+                display: block;
+                color:#262626;
+                position: absolute;
+                top: 18px;
+                left: 36px;
+            }
+        }
+    }
+    &:nth-of-type(5) {
+        .svg-text {
+            &::before {
+                content: "\f040";
+                font-family: $FontaWesome;
+                font-size: 24px;
+                display: block;
+                color:#262626;
+                position: absolute;
+                top: 20px;
+                left: 35px;
+            }
+        }
+    }
+    &:nth-of-type(6) {
+        .svg-text {
+            &::before {
+                content: "\f109";
+                font-family: $FontaWesome;
+                font-size: 24px;
+                display: block;
+                color:#262626;
+                position: absolute;
+                top: 20px;
+                left: 32px;
+            }
+        }
+    }
+}
+.services-container {
+    cursor: pointer;
+    &:hover .services-text{
+        background: rgba(255, 0, 54, .1);
+        color: $color-white;
+    }
+    &:hover{
+        .svg-text {
+            svg {
+                g {
+                    fill:#ff0036;
+                }
+            }
+        &::before {
+            color:$color-white;
+        }
+        }
+    }
+}
+.services-tittle {
+    color:$color-white;
+    font-family:$RalewayMedium;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 33px;
+    padding-top: 17px;
+}
+.services-text {
+    color:$color-darkGray;
+    font-family: $LatoRegular;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 31px 28px 34px 35px;
+    background: rgba(164, 164, 164, .1);
+}
+@media (max-width:768px) {
+.svg-text {
+    justify-content: end;
+}
+}
+@media (max-width:576px) {
+    .services-container {
+        margin-bottom: 20px;
+        &:nth-of-type(2n) {
+           .svg-text {
+                justify-content: flex-end;
+               svg {
+                   order:1;
+               }
+               .services-tittle {
+                   margin-right: 20px;
+                   font-size: 15px;
+               }
+               &:before {
+                    left: 0;
+                    right: 32px;
+                    display: flex;
+                    justify-content: flex-end;
+               }
+           } 
+        }
+
+    }
+.services-text {
+    padding: 10px;
+    font-size: 12px;
+    }
+.services {
+    padding-top: 50px;
+    .our-cient-tittle {
+        h2{
+            font-size: 20px;
+            .red-span {
+                font-size: 20px;
+            }
+        }
+        .about-tittle-text {
+            font-size: 13px;
+        }
+    }
+}
+}
+/*---------- SERVICES --- КОНЕЦ ----------*/

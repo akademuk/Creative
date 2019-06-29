@@ -1,0 +1,143 @@
+/*---------- SCILLS --- НАЧАЛО ----------*/
+.scills {
+    padding-bottom: 100px;
+    .container {
+        .row {
+            .scils-container {
+                text-align: center;
+                padding: 0 30px 0 30px;
+            }
+        }
+    }
+    .our-cient-tittle {
+        .about-tittle-text {
+            margin-bottom: 100px;
+        }
+    }
+}
+.scills-scills {
+    border: 3px solid  #eaeaea;
+    border-radius: 50%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background:#fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &:after {
+        position:absolute;
+        content:"";
+        width: 105.2%;
+        height: 106%;
+        background: #e74c3c;
+        top: -5px;
+        left: -6px;
+        z-index:-1;
+        border-radius:50%;
+    }
+}
+.scills-percent {
+    color:$color-torchRed;
+    font-family: $LatoLight;
+    font-size: 40px;
+    line-height: 180px;
+}
+.percent {
+    color: $color-black;
+}
+.scills-tittle {
+    margin-top: 25px;
+    color: $color-nero;
+    font-family: $RalewayMedium;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.scills-description {
+    color: $color-matterhorn;
+    font-family: $LatoRegular;
+    font-size: 16px;
+    line-height: 18px;
+}
+@media (max-width:1200px) {
+.scills-percent {
+    line-height: 145px;
+}
+.scills {
+    .our-cient-tittle {
+       .about-tittle-text {
+           padding: 0 0 50px;
+       } 
+    }
+}
+}
+@media(max-width:992px) {
+.scils-container{
+    &:nth-of-type(1),
+    &:nth-of-type(2) {
+        margin-bottom: 50px;
+    }
+}
+.scills-scills {
+    width: 50%;
+    &:after {
+        width: 108%;
+        height: 106%;
+        background: #e74c3c;
+        top: -5px;
+        left: -7px;
+    }
+}
+.scills-percent {
+    line-height: 115px;
+    font-size: 30px;
+} 
+.scills-tittle {
+    margin-bottom: 10px;
+    &:after {
+        width: 106%;
+        height: 110%;
+        top: -7px;
+    }
+}
+}
+@media(max-width:768px) {
+.scills-percent {
+    line-height: 80px;
+    }
+.scills-scills {
+    &:after {
+        width: 113%;
+        height: 106%;
+        top: -2px;
+        left: -7px;
+    }
+} 
+}
+@media(max-width:576px) {
+    .scills-scills {
+        width: 25%;
+        height: 60%;
+        &:after {
+            width: 107%;
+            height: 108%;
+            top: -4px;
+        }
+    }
+.scills-percent {
+    line-height: 75px;
+    font-size: 25px;
+}  
+.scills-tittle {
+    font-size: 15px;
+} 
+.scills-description {
+    font-size: 13px;
+}
+.scils-container{
+    &:nth-of-type(3){
+        margin-bottom: 50px;
+    }
+}
+}
+/*---------- SCILLS --- КОНЕЦ ----------*/

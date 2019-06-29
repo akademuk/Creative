@@ -1,0 +1,189 @@
+/*---------- ABOUT --- НАЧАЛО ----------*/
+.about {
+    padding: 92px 0 98px;
+    .about-tittle-text {
+        padding: 30px 0 82px;
+        color: $color-matterhorn;
+        font-family: $LatoBold;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+.about-text-torchRed {
+    color: $color-torchRed;
+}
+.about-collapse-text {
+    color: $color-matterhorn;
+    font-family: $LatoRegular;
+    font-size: 16px;
+    margin-bottom: 21px;
+}
+.card {
+    margin-bottom: 9px;
+}
+.card-header {
+    padding: 0 !important;
+    .btn-link {
+        color: $color-nero;
+        font-family: $RalewayMedium;
+        font-size: 20px;
+        text-decoration: none !important;
+        display: flex;
+    }
+}
+.mb-0 .btn[aria-expanded='true'] {
+    color: $color-torchRed;
+}
+.mb-0 .btn[aria-expanded='false'] {
+    color: $color-nero;
+}
+.mb-0 .btn[aria-expanded='true'] > svg > path {
+    fill: $color-torchRed;
+}
+.mb-0 .btn[aria-expanded='true'] > svg:nth-of-type(2) {
+    display: block;
+}
+.mb-0 .btn[aria-expanded='true'] > svg:nth-of-type(1) {
+    display: none;
+}
+.about-collapse-right-img {
+    position: relative;
+    width: 100%;
+    height: 339px;
+    margin-bottom: 119px;
+}
+.about-img-center {
+    z-index: 2;
+    width: 75%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 77px;
+}
+.about-img-left {
+    z-index: 1;
+    width: 50%;
+    position: absolute;
+    top: 16px;
+    height: 90%;
+    left: 0;
+    filter: brightness(60%);
+}
+.about-img-right {
+    z-index: 1;
+    width: 50%;
+    position: absolute;
+    top: 16px;
+    height: 90%;
+    right: 0;
+    filter: brightness(60%);
+}
+.cards {
+    background-image: url(../../img/hexagon.svg);
+    width: 88px;
+    height: 76px;
+    i {
+        font-size: 24px;
+        color:#000;
+        font-family: $FontaWesome;
+        text-align: center;
+        color: #fff;
+        line-height: 72px;
+        transform: rotate(-90deg);
+    }
+    &:nth-last-child(3) {
+        font-size: 31px;
+    }
+}
+.about svg {
+    margin-bottom: 35px;
+    &:hover use{
+        fill: $color-torchRed;
+        cursor: pointer;
+    }
+    &:hover g {
+       fill:$color-white;
+    }
+}
+.article-card {
+    text-align: center;
+}
+.article-card-text {
+    color: $color-matterhorn;
+    font-family: $LatoRegular;
+    font-size: 16px;
+    line-height: 22px;
+}
+.mb-0 {
+    display: flex;
+    align-items: center;
+    svg {
+        display: block;
+        margin-bottom: 0 !important;
+        height: 45px;
+        path {
+            fill:#505050;
+        }
+        &:nth-of-type(2) {
+            display: none;
+        }
+    }
+    .btn {
+        padding: 0;
+        margin-left:20px;
+    }
+}
+.about-border-left {
+    padding-left: 29px !important;
+    margin-left: 21px;
+    border-left: 1px solid $colr-whisper;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+@media(max-width: 1200px) {
+.article-card {
+   margin-bottom: 20px;
+    }
+.about {
+    padding: 50px 0;
+    svg {
+        margin-bottom: 15px;
+    }
+}
+.about-collapse-right-img {
+    margin: 50px 0;
+}  
+}
+@media(max-width: 576px) {
+.about-collapse-right-img {
+   display: none;
+}
+.about-collapse {
+    margin-bottom: 50px;
+}
+.about-img-center {
+    position: static;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+.about {
+    h2 {
+        font-size: 20px;
+        .red-span {
+            font-size: 20px;
+        }
+    }
+    .about-tittle-text {
+        font-size: 13px;
+    }
+}
+.about-collapse-text {
+    font-size: 13px;
+}
+.card-body {
+    font-size: 13px;
+}
+}
+/*---------- ABOUT --- КОНЕЦ ----------*/

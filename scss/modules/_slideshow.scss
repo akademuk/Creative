@@ -1,0 +1,71 @@
+/*---------- SLIDESHOW --- НАЧАЛО ----------*/
+.banner {
+    background: url(../img/layers.jpg);
+    min-height:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 70px; 
+    padding: 317px 0 213px;
+    margin-top: -70px;
+    display: block;
+}
+.carousel-item {
+    .d-block {
+	text-align: center;
+	margin: 0 auto;
+}
+}
+.tittle-text {
+	color: #fff;
+	font-family: "LatoRegular";
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 50px;
+}
+.btn-banner {
+    .btn-primary {
+        &:nth-of-type(1) {
+            background-color: #131313;
+            border-radius: 0;
+            border:none;
+            font-family: 'RalewayMedium';
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-right:25px;
+            padding:10px;
+        }
+    }
+}
+.btn-banner
+{
+    .btn-primary {
+        &:nth-of-type(2) {
+            background-color: #131313;
+            border-radius: 0;
+            border:none;
+            font-family: 'RalewayMedium';
+            font-size: 20px;
+            text-transform: uppercase;
+            padding:10px;
+        }
+    }
+} 
+.btn-banner {
+    .btn-primary {
+        &:hover {
+            background-color: #ff0036;
+            outline: none;
+        }
+    }
+}
+.carousel-control-prev-icon {
+    &:hover {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FF0036' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    }
+}
+.carousel-control-next-icon {
+    &:hover {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0036' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    }
+}
+/*---------- SLIDESHOW --- КОНЕЦ ----------*/

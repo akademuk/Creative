@@ -1,0 +1,97 @@
+/*---------- SOCIAL MEDIA --- НАЧАЛО ----------*/
+.social-media {
+    background:linear-gradient(to right, rgba(0,0,0,.9)), url(../../img/folloow-creative.png);
+   padding: 100px 0 50px;
+    color: $color-white;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-bottom: 110px;
+    background-position: center center;
+    background-size: cover;
+}
+.social-media-icon {
+    margin-top: 40px;
+}
+.social-number {
+    margin-top: 40px;
+}
+.social-media-container {
+    font-family: "FontaWesome";
+    &:nth-of-type(1) {
+        &::before {
+            content: "\f09a";
+            position: absolute;
+            top: 20px;
+            left: 45%;
+            color: $color-torchRed;
+            font-size: 21px;
+        }
+    }
+    &:nth-of-type(2) {
+        &::before {
+            content: "\f099";
+            position: absolute;
+            top: 20px;
+            left: 45%;
+            color: $color-torchRed;
+            font-size: 17px;
+        }
+    }
+    &:nth-of-type(3) {
+        &::before {
+            content: "\f231";
+            position: absolute;
+            top: 20px;
+            left: 45%;
+            color: $color-torchRed;
+            font-size: 19px;
+        }
+    }
+    &:nth-of-type(4) {
+        &::before {
+            content: "\f0d5";
+            position: absolute;
+            top: 20px;
+            left: 45%;
+            color: $color-torchRed;
+            font-size: 17px;
+        }
+    }
+}
+.social-media{
+    svg {
+        &:hover g{
+            fill:red;
+        }
+    }
+}
+.social-number {
+    font-family: $LatoRegular;
+    font-size: 16px;
+    line-height: 22px;
+}
+@media(max-width:768px) {
+.social-number {
+    font-size: 13px;
+    line-height: 0;
+}
+.social-media-icon {
+    .container {
+        .row {
+            justify-content: space-between !important;
+        }
+    }
+} 
+.social-media {
+    padding-top: 50px;
+}
+}
+@media(max-width:576px) {
+.social-media-container {
+    padding-left: 0 !important;
+    &:before {
+        left: 35% !important;
+    }
+}
+}
+/*---------- SOCIAL MEDIA --- КОНЕЦ ----------*/

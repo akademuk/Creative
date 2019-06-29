@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*---------- HEADER --- НАЧАЛО ----------*/
+.header {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 99;
+  border-top: 3px solid #262626;
+  border-bottom: 2px solid #000; }
+
+.logo {
+  background: url(../img/Logo-bg.png);
+  width: 255px;
+  position: relative;
+  background-repeat: no-repeat;
+  height: 115px;
+  padding-top: 30px;
+  margin-top: -3px;
+  background-size: cover; }
+
+.logotype {
+  background: url(../img/Creativia.png);
+  height: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: top center; }
+
+.header-navigation {
+  font-size: 20px; }
+
+/*---------- HEADER --- КОНЕЦ ----------*/

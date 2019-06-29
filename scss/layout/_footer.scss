@@ -1,0 +1,20 @@
+/*---------- FOOTER --- НАЧАЛО ----------*/
+footer {
+    padding: 30px 44px 26px 0;
+    background: $color-nero;
+    text-align: right;
+    img {
+       margin-right: 32%;
+       opacity: 0.2;
+    }
+}
+.autor {
+    color: #8e8e8e;
+    font-family: $MyriadPro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: right;
+    display: inline-block;
+}
+/*---------- FOOTER --- КОНЕЦ ----------*/
